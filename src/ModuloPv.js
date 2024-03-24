@@ -27,6 +27,14 @@ export class ModuloPv {
     }
 
     /**
+     * 
+     * @returns 
+     */
+    getVector(){
+        return this.v;
+    }
+
+    /**
      * Rotaciona o módulo fotovoltaico 'anguloGraus' graus em torno do eixo x.
      * @param {number} anguloGraus 
      * @returns 
