@@ -3,8 +3,8 @@
  */
 export class ModuloPv {
     /**
-     * @param {any} largura
-     * @param {any} comprimento
+     * @param {number} largura
+     * @param {number} comprimento
      * @param {string} orientacao
      */
     constructor( largura, comprimento, orientacao ) {
@@ -28,7 +28,7 @@ export class ModuloPv {
 
     /**
      * Rotaciona o módulo fotovoltaico 'anguloGraus' graus em torno do eixo x.
-     * @param {*} anguloGraus 
+     * @param {number} anguloGraus 
      * @returns 
      */
     rotateX( anguloGraus ){
@@ -52,7 +52,7 @@ export class ModuloPv {
 
     /**
      * Rotaciona o módulo fotovoltaico 'anguloGraus' graus em torno do eixo y.
-     * @param {*} anguloGraus 
+     * @param {number} anguloGraus 
      * @returns 
      */
     rotateY( anguloGraus ){
@@ -76,7 +76,7 @@ export class ModuloPv {
 
     /**
      * Rotaciona o módulo fotovoltaico 'anguloGraus' graus em torno do eixo z.
-     * @param {*} anguloGraus 
+     * @param {number} anguloGraus 
      * @returns 
      */
     rotateZ( anguloGraus ){
