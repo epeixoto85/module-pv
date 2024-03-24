@@ -1,6 +1,6 @@
 // index.js
-const { ModuloPv } = require("./src/ModuloPv.js");
+import { ModuloPv } from "./src/ModuloPv.js";
 
-module.exports = {
+export default {
     ModuloPv
 }
