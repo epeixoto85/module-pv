@@ -1,7 +1,7 @@
 /**
  * @class
  */
-class ModuloPv {
+export class ModuloPv {
     /**
      * @param {any} largura
      * @param {any} comprimento
@@ -98,7 +98,3 @@ class ModuloPv {
         return this.v;
     }
 }
-
-export{ 
-    ModuloPv as ModuloPv
-};

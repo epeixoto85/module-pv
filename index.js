@@ -1,6 +1,3 @@
-// index.js
-import { ModuloPv } from "./src/ModuloPv.js";
-
-export default {
-    ModuloPv
+// index.ts
+export class ModuloPv {
 }
