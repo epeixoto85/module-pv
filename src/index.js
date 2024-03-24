@@ -1,4 +1,4 @@
 // index.ts
-import { ModuloPv } from './src/ModuloPv.js';
+import { ModuloPv } from './ModuloPv.js';
 
 const moduloPv = new ModuloPv( 1, 2, 'R' );
