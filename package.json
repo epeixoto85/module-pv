@@ -1,6 +1,6 @@
 {
   "name": "@epeixoto85/module-pv",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Representa um modulo fotovoltaico.",
   "type": "module",
   "main": "./index.js",
