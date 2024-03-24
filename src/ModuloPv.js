@@ -1,3 +1,13 @@
+/**
+ * @typedef {Object} ModuloPv
+ * @property {number} largura - Largura
+ * @property {number} comprimento - Comprimento
+ * @property {string} orientacao - Orientacao, (R)etrato ou (P)aisagem.
+ */
+
+/**
+ * @class
+ */
 class ModuloPv {
     constructor( largura, comprimento, orientacao ) {
         let x;
