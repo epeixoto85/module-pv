@@ -1,3 +1,5 @@
+import { ModuloPvUtils } from "./ModuloPvUtils.js";
+
 /**
  * @class
  */
@@ -41,7 +43,7 @@ export class ModuloPv {
      */
     rotateX( anguloGraus ){
         //Converte o angulo para radiano.
-        const anguloRadianos = anguloGraus * Math.PI / 180.0;
+        const anguloRadianos = ModuloPvUtils.convertDegreeToRadian( anguloGraus );
 
         const x = this.v[0];
         const y = this.v[1];
@@ -65,7 +67,7 @@ export class ModuloPv {
      */
     rotateY( anguloGraus ){
         //Converte o angulo para radiano.
-        const anguloRadianos = anguloGraus * Math.PI / 180.0;
+        const anguloRadianos = ModuloPvUtils.convertDegreeToRadian( anguloGraus );
 
         const x = this.v[0];
         const y = this.v[1];
@@ -89,7 +91,7 @@ export class ModuloPv {
      */
     rotateZ( anguloGraus ){
         //Converte o angulo para radiano.
-        const anguloRadianos = anguloGraus * Math.PI / 180.0;
+        const anguloRadianos = ModuloPvUtils.convertDegreeToRadian( anguloGraus );
 
         const x = this.v[0];
         const y = this.v[1];

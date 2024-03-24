@@ -1,11 +1,11 @@
 {
   "name": "@epeixoto85/module-pv",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "Representa um modulo fotovoltaico.",
   "type": "module",
   "main": "./src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
